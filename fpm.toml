@@ -1,0 +1,8 @@
+name = "csv"
+version = "1.2.0"
+author = "Jacob Williams"
+maintainer = ""
+copyright = "2017 Jacob Williams"
+
+[library]
+source-dir="src"
