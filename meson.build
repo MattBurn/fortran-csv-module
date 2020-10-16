@@ -25,7 +25,7 @@ csv_lib = library(
 # Export dependency for other projects and test suite
 csv_inc = csv_lib.private_dir_include()
 csv_dep = declare_dependency(
-  link_with: tomlf_csv,
+  link_with: csv_lib,
   include_directories: csv_inc,
 )
 
