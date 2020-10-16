@@ -29,12 +29,6 @@ csv_dep = declare_dependency(
   include_directories: csv_inc,
 )
 
-# Package the license files
-csv_lic = files(
-  'LICENSE-MIT',
-  'LICENSE-Apache',
-)
-
 if install
   pkg = import('pkgconfig')
   pkg.generate(
