@@ -80,6 +80,4 @@ else()
 endif()
 
 # add the testsuite
-enable_testing()
 set(fortran-csv-module "${CMAKE_CURRENT_SOURCE_DIR}/fpm.toml")
-add_subdirectory("test")
